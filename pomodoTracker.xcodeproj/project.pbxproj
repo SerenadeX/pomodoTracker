@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EAAF1361D7247780049A302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF1351D7247780049A302 /* AppDelegate.swift */; };
+		8EAAF1381D7247780049A302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF1371D7247780049A302 /* ViewController.swift */; };
+		8EAAF13B1D7247780049A302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF1391D7247780049A302 /* Main.storyboard */; };
+		8EAAF13D1D7247790049A302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF13C1D7247790049A302 /* Assets.xcassets */; };
+		8EAAF1401D7247790049A302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF13E1D7247790049A302 /* LaunchScreen.storyboard */; };
+		8EAAF14B1D7247790049A302 /* pomodoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF14A1D7247790049A302 /* pomodoTrackerTests.swift */; };
+		8EAAF1561D7247790049A302 /* pomodoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF1551D7247790049A302 /* pomodoTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EAAF1471D7247790049A302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EAAF12A1D7247780049A302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAAF1311D7247780049A302;
+			remoteInfo = pomodoTracker;
+		};
+		8EAAF1521D7247790049A302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EAAF12A1D7247780049A302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAAF1311D7247780049A302;
+			remoteInfo = pomodoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EAAF1321D7247780049A302 /* pomodoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAAF1351D7247780049A302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EAAF1371D7247780049A302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EAAF13A1D7247780049A302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EAAF13C1D7247790049A302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EAAF13F1D7247790049A302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EAAF1411D7247790049A302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAAF1461D7247790049A302 /* pomodoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAAF14A1D7247790049A302 /* pomodoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoTrackerTests.swift; sourceTree = "<group>"; };
+		8EAAF14C1D7247790049A302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAAF1511D7247790049A302 /* pomodoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAAF1551D7247790049A302 /* pomodoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoTrackerUITests.swift; sourceTree = "<group>"; };
+		8EAAF1571D7247790049A302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EAAF12F1D7247780049A302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF1431D7247790049A302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF14E1D7247790049A302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EAAF1291D7247780049A302 = {
+			isa = PBXGroup;
+			children = (
+				8EAAF1341D7247780049A302 /* pomodoTracker */,
+				8EAAF1491D7247790049A302 /* pomodoTrackerTests */,
+				8EAAF1541D7247790049A302 /* pomodoTrackerUITests */,
+				8EAAF1331D7247780049A302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAAF1331D7247780049A302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EAAF1321D7247780049A302 /* pomodoTracker.app */,
+				8EAAF1461D7247790049A302 /* pomodoTrackerTests.xctest */,
+				8EAAF1511D7247790049A302 /* pomodoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EAAF1341D7247780049A302 /* pomodoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8EAAF1351D7247780049A302 /* AppDelegate.swift */,
+				8EAAF1371D7247780049A302 /* ViewController.swift */,
+				8EAAF1391D7247780049A302 /* Main.storyboard */,
+				8EAAF13C1D7247790049A302 /* Assets.xcassets */,
+				8EAAF13E1D7247790049A302 /* LaunchScreen.storyboard */,
+				8EAAF1411D7247790049A302 /* Info.plist */,
+			);
+			path = pomodoTracker;
+			sourceTree = "<group>";
+		};
+		8EAAF1491D7247790049A302 /* pomodoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EAAF14A1D7247790049A302 /* pomodoTrackerTests.swift */,
+				8EAAF14C1D7247790049A302 /* Info.plist */,
+			);
+			path = pomodoTrackerTests;
+			sourceTree = "<group>";
+		};
+		8EAAF1541D7247790049A302 /* pomodoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EAAF1551D7247790049A302 /* pomodoTrackerUITests.swift */,
+				8EAAF1571D7247790049A302 /* Info.plist */,
+			);
+			path = pomodoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAAF1311D7247780049A302 /* pomodoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAAF15A1D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTracker" */;
+			buildPhases = (
+				8EAAF12E1D7247780049A302 /* Sources */,
+				8EAAF12F1D7247780049A302 /* Frameworks */,
+				8EAAF1301D7247780049A302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pomodoTracker;
+			productName = pomodoTracker;
+			productReference = 8EAAF1321D7247780049A302 /* pomodoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EAAF1451D7247790049A302 /* pomodoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAAF15D1D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerTests" */;
+			buildPhases = (
+				8EAAF1421D7247790049A302 /* Sources */,
+				8EAAF1431D7247790049A302 /* Frameworks */,
+				8EAAF1441D7247790049A302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EAAF1481D7247790049A302 /* PBXTargetDependency */,
+			);
+			name = pomodoTrackerTests;
+			productName = pomodoTrackerTests;
+			productReference = 8EAAF1461D7247790049A302 /* pomodoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EAAF1501D7247790049A302 /* pomodoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAAF1601D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerUITests" */;
+			buildPhases = (
+				8EAAF14D1D7247790049A302 /* Sources */,
+				8EAAF14E1D7247790049A302 /* Frameworks */,
+				8EAAF14F1D7247790049A302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EAAF1531D7247790049A302 /* PBXTargetDependency */,
+			);
+			name = pomodoTrackerUITests;
+			productName = pomodoTrackerUITests;
+			productReference = 8EAAF1511D7247790049A302 /* pomodoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EAAF12A1D7247780049A302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Steve Spigarelli";
+				TargetAttributes = {
+					8EAAF1311D7247780049A302 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78BB82GWS4;
+					};
+					8EAAF1451D7247790049A302 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78BB82GWS4;
+						TestTargetID = 8EAAF1311D7247780049A302;
+					};
+					8EAAF1501D7247790049A302 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78BB82GWS4;
+						TestTargetID = 8EAAF1311D7247780049A302;
+					};
+				};
+			};
+			buildConfigurationList = 8EAAF12D1D7247780049A302 /* Build configuration list for PBXProject "pomodoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EAAF1291D7247780049A302;
+			productRefGroup = 8EAAF1331D7247780049A302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EAAF1311D7247780049A302 /* pomodoTracker */,
+				8EAAF1451D7247790049A302 /* pomodoTrackerTests */,
+				8EAAF1501D7247790049A302 /* pomodoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAAF1301D7247780049A302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAAF1401D7247790049A302 /* LaunchScreen.storyboard in Resources */,
+				8EAAF13D1D7247790049A302 /* Assets.xcassets in Resources */,
+				8EAAF13B1D7247780049A302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF1441D7247790049A302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF14F1D7247790049A302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EAAF12E1D7247780049A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAAF1381D7247780049A302 /* ViewController.swift in Sources */,
+				8EAAF1361D7247780049A302 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF1421D7247790049A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAAF14B1D7247790049A302 /* pomodoTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF14D1D7247790049A302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAAF1561D7247790049A302 /* pomodoTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EAAF1481D7247790049A302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAAF1311D7247780049A302 /* pomodoTracker */;
+			targetProxy = 8EAAF1471D7247790049A302 /* PBXContainerItemProxy */;
+		};
+		8EAAF1531D7247790049A302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAAF1311D7247780049A302 /* pomodoTracker */;
+			targetProxy = 8EAAF1521D7247790049A302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EAAF1391D7247780049A302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAAF13A1D7247780049A302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EAAF13E1D7247790049A302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAAF13F1D7247790049A302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EAAF1581D7247790049A302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EAAF1591D7247790049A302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EAAF15B1D7247790049A302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pomodoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EAAF15C1D7247790049A302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pomodoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EAAF15E1D7247790049A302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pomodoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoTracker.app/pomodoTracker";
+			};
+			name = Debug;
+		};
+		8EAAF15F1D7247790049A302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pomodoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoTracker.app/pomodoTracker";
+			};
+			name = Release;
+		};
+		8EAAF1611D7247790049A302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pomodoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pomodoTracker;
+			};
+			name = Debug;
+		};
+		8EAAF1621D7247790049A302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pomodoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pomodoTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EAAF12D1D7247780049A302 /* Build configuration list for PBXProject "pomodoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAAF1581D7247790049A302 /* Debug */,
+				8EAAF1591D7247790049A302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAAF15A1D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAAF15B1D7247790049A302 /* Debug */,
+				8EAAF15C1D7247790049A302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EAAF15D1D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAAF15E1D7247790049A302 /* Debug */,
+				8EAAF15F1D7247790049A302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EAAF1601D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAAF1611D7247790049A302 /* Debug */,
+				8EAAF1621D7247790049A302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EAAF12A1D7247780049A302 /* Project object */;
+}
