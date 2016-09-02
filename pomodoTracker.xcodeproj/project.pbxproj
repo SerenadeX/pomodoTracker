@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59C6B25D1D7A21A6006A5E32 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6B25C1D7A21A6006A5E32 /* NotificationHandler.swift */; };
+		8E4FF0C51D72A9BD007B75A9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4FF0C41D72A9BD007B75A9 /* UserNotifications.framework */; };
+		8E4FF0C71D75B48D007B75A9 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FF0C61D75B48D007B75A9 /* TaskTableViewCell.swift */; };
+		8E4FF0C91D75B9AB007B75A9 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FF0C81D75B9AB007B75A9 /* TaskTableViewController.swift */; };
+		8E4FF0CB1D7915C6007B75A9 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FF0CA1D7915C6007B75A9 /* Consts.swift */; };
 		8EAAF1361D7247780049A302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF1351D7247780049A302 /* AppDelegate.swift */; };
-		8EAAF1381D7247780049A302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAAF1371D7247780049A302 /* ViewController.swift */; };
 		8EAAF13B1D7247780049A302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF1391D7247780049A302 /* Main.storyboard */; };
 		8EAAF13D1D7247790049A302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF13C1D7247790049A302 /* Assets.xcassets */; };
 		8EAAF1401D7247790049A302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAAF13E1D7247790049A302 /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59C6B25C1D7A21A6006A5E32 /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		8E4FF0C41D72A9BD007B75A9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		8E4FF0C61D75B48D007B75A9 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		8E4FF0C81D75B9AB007B75A9 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		8E4FF0CA1D7915C6007B75A9 /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
 		8EAAF1321D7247780049A302 /* pomodoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAAF1351D7247780049A302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EAAF1371D7247780049A302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EAAF13A1D7247780049A302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EAAF13C1D7247790049A302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EAAF13F1D7247790049A302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4FF0C51D72A9BD007B75A9 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E4FF0C31D72A9BC007B75A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4FF0C41D72A9BD007B75A9 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8EAAF1291D7247780049A302 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 				8EAAF1491D7247790049A302 /* pomodoTrackerTests */,
 				8EAAF1541D7247790049A302 /* pomodoTrackerUITests */,
 				8EAAF1331D7247780049A302 /* Products */,
+				8E4FF0C31D72A9BC007B75A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +116,14 @@
 			isa = PBXGroup;
 			children = (
 				8EAAF1351D7247780049A302 /* AppDelegate.swift */,
-				8EAAF1371D7247780049A302 /* ViewController.swift */,
 				8EAAF1391D7247780049A302 /* Main.storyboard */,
+				8E4FF0C61D75B48D007B75A9 /* TaskTableViewCell.swift */,
+				8E4FF0C81D75B9AB007B75A9 /* TaskTableViewController.swift */,
 				8EAAF13C1D7247790049A302 /* Assets.xcassets */,
 				8EAAF13E1D7247790049A302 /* LaunchScreen.storyboard */,
 				8EAAF1411D7247790049A302 /* Info.plist */,
+				8E4FF0CA1D7915C6007B75A9 /* Consts.swift */,
+				59C6B25C1D7A21A6006A5E32 /* NotificationHandler.swift */,
 			);
 			path = pomodoTracker;
 			sourceTree = "<group>";
@@ -188,21 +209,25 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Steve Spigarelli";
 				TargetAttributes = {
 					8EAAF1311D7247780049A302 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 78BB82GWS4;
+						DevelopmentTeam = 9P849B5QJR;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					8EAAF1451D7247790049A302 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 78BB82GWS4;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8EAAF1311D7247780049A302;
 					};
 					8EAAF1501D7247790049A302 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 78BB82GWS4;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8EAAF1311D7247780049A302;
 					};
 				};
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAAF1381D7247780049A302 /* ViewController.swift in Sources */,
+				8E4FF0CB1D7915C6007B75A9 /* Consts.swift in Sources */,
 				8EAAF1361D7247780049A302 /* AppDelegate.swift in Sources */,
+				59C6B25D1D7A21A6006A5E32 /* NotificationHandler.swift in Sources */,
+				8E4FF0C91D75B9AB007B75A9 /* TaskTableViewController.swift in Sources */,
+				8E4FF0C71D75B48D007B75A9 /* TaskTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +357,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -374,8 +404,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -394,6 +426,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -402,10 +435,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9P849B5QJR;
 				INFOPLIST_FILE = pomodoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -413,10 +451,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9P849B5QJR;
 				INFOPLIST_FILE = pomodoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -428,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoTracker.app/pomodoTracker";
 			};
 			name = Debug;
@@ -440,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoTracker.app/pomodoTracker";
 			};
 			name = Release;
@@ -451,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = pomodoTracker;
 			};
 			name = Debug;
@@ -462,6 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rel.li.pomodoTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = pomodoTracker;
 			};
 			name = Release;
@@ -485,6 +532,7 @@
 				8EAAF15C1D7247790049A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EAAF15D1D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +541,7 @@
 				8EAAF15F1D7247790049A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EAAF1601D7247790049A302 /* Build configuration list for PBXNativeTarget "pomodoTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +550,7 @@
 				8EAAF1621D7247790049A302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
