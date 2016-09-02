@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         
-        UNUserNotificationCenter.current().delegate = NotificationHandler.shared
+        UNUserNotificationCenter.current().delegate = window?.rootViewController as? TaskTableViewController
         let center = UNUserNotificationCenter.current()
         center.removeAllPendingNotificationRequests()
         

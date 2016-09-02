@@ -26,18 +26,6 @@ class TaskTableViewController: UITableViewController {
         
     }
 
-    override func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
-        super.userNotificationCenter(center, willPresent: notification, withCompletionHandler: completionHandler)
-        
-        print("presenting")
-    }
-    
-    override func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: () -> Void) {
-        super.userNotificationCenter(center, didReceive: response, withCompletionHandler: completionHandler)
-        
-        print("receiving")
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -114,7 +102,7 @@ class TaskTableViewController: UITableViewController {
 }
 
 extension UITableViewController: UNUserNotificationCenterDelegate {
-    public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: () -> Void) {
+    public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         print("notification dismissed")
         print(response.actionIdentifier)
         if response.actionIdentifier == Consts.newIdentifier ||
@@ -168,7 +156,7 @@ extension UITableViewController: UNUserNotificationCenterDelegate {
         }
     }
     
-    public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
+    public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         print("app is active")
     }
 }
